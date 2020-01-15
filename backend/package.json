@@ -6,7 +6,11 @@
   "repository": "git@github.com:lucaspiressimao/semana_omnistack_10.git",
   "author": "Lucas Pires <lucaspiressimao@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.8.7",
     "nodemon": "^2.0.2"
